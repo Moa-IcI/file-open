@@ -1,0 +1,176 @@
+set hello to "Finder"
+
+tell application hello to activate
+
+set question to display dialog "Ajouter ce que vous voulez voila le lien: longnecksoftware.ch/applescript/app-launcher.html" buttons {"Quit", "Next page"}
+
+set question to display dialog "Choose your app." buttons {"Finder", "Quit", "Next page"}
+set answer to button returned of question
+if answer = "Finder" then
+	tell application answer to activate
+end if
+if answer = "Quit" then
+	tell "Open-Apps" to quit
+end if
+
+
+set question to display dialog "Choose your app." buttons {"Arduino IDE", "balenaEtcher", "Next page"}
+set answer to button returned of question
+if answer = "Arduino IDE" then
+	tell application answer to activate
+end if
+if answer = "balenaEtcher" then
+	tell application answer to activate
+end if
+set question to display dialog "Choose your app." buttons {"Blender", "Blockbench", "Next page"}
+set answer to button returned of question
+if answer = "Blender" then
+	tell application answer to activate
+end if
+if answer = "Blockbench" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Brave Browser", "Calculator", "Next page"}
+set answer to button returned of question
+if answer = "Brave Browser" then
+	tell application answer to activate
+end if
+if answer = "Calculator" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Chess", "CircuitBlocks", "Next page"}
+set answer to button returned of question
+if answer = "Chess" then
+	tell application answer to activate
+end if
+if answer = "CircuitBlocks" then
+	tell application answer to activate
+end if
+
+
+set question to display dialog "Choose your app." buttons {"Dictionary", "Emacs", "Next page"}
+set answer to button returned of question
+if answer = "Dictionary" then
+	tell application answer to activate
+end if
+if answer = "Emacs" then
+	tell application answer to activate
+end if
+
+
+set question to display dialog "Choose your app." buttons {"GIMP-2.10", "iMovie", "Next page"}
+set answer to button returned of question
+if answer = "GIMP-2.10" then
+	tell application answer to activate
+end if
+if answer = "balenaEtcher" then
+	tell application answer to activate
+end if
+
+
+set question to display dialog "Choose your app." buttons {"Mail", "Microsoft Teams (work or school)", "Next page"}
+set answer to button returned of question
+if answer = "Mail" then
+	tell application answer to activate
+end if
+if answer = "Microsoft Teams (work or school)" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"MINDSTORMS Home", "Minecraft", "Next page"}
+set answer to button returned of question
+if answer = "MINDSTORMS Home" then
+	tell application answer to activate
+end if
+if answer = "Minecraft" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Music", "Notes", "Next page"}
+set answer to button returned of question
+if answer = "Music" then
+	tell application answer to activate
+end if
+if answer = "Notes" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Photo Booth", "IDLE", "Next page"}
+set answer to button returned of question
+if answer = "Photo Booth" then
+	tell application answer to activate
+end if
+if answer = "IDLE" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"QuickTime Player", "Roblox", "Next page"}
+set answer to button returned of question
+if answer = "QuickTime Player" then
+	tell application answer to activate
+end if
+if answer = "Roblox" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Signal", "Spotify", "Next page"}
+set answer to button returned of question
+if answer = "Signal" then
+	tell application answer to activate
+end if
+if answer = "Spotify" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Star Stable", "Steam", "Next page"}
+set answer to button returned of question
+if answer = "Star Stable" then
+	tell application answer to activate
+end if
+if answer = "Steam" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"System Preferences", "TextEdit", "Next page"}
+set answer to button returned of question
+if answer = "System Preferences" then
+	tell application answer to activate
+end if
+if answer = "TextEdit" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Activity Monitor", "Disk Utility", "Next page"}
+set answer to button returned of question
+if answer = "Activity Monitor" then
+	tell application answer to activate
+end if
+if answer = "Disk Utility" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Script Editor", "Terminal", "Next page"}
+set answer to button returned of question
+if answer = "Script Editor" then
+	tell application answer to activate
+end if
+if answer = "Terminal" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Visual Studio Code", "VLC", "Next page"}
+set answer to button returned of question
+if answer = "Visual Studio Code" then
+	tell application answer to activate
+end if
+if answer = "VLC" then
+	tell application answer to activate
+end if
+
+set question to display dialog "Choose your app." buttons {"Wireshark", "Close"}
+set answer to button returned of question
+if answer = "Wireshark" then
+	tell application answer to activate
+end if
